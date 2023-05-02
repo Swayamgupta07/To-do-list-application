@@ -1,0 +1,19 @@
+This program helps you manage a list of tasks.
+
+The first line of the code, import os, imports a module called "os" which helps you interact with your computer's operating system.
+
+The second line, tasks = [], creates an empty list called "tasks" where you can store your tasks.
+
+The next four functions, remove_task(), save_tasks(), load_tasks(), and add_task(), are functions that you can call to perform specific actions on your list of tasks.
+
+The view_tasks() function is called when you want to see your list of tasks.
+
+The while loop that follows allows you to interact with the program by displaying a list of options and asking for your input. 
+
+The if statements check your input and call the appropriate function based on your choice.
+
+The program will continue to loop and ask for input until you choose option 6 to quit.
+
+Finally, if the tasks list is empty and a file called "tasks.txt" exists, the program will remove the file as a cleanup step.
+
+Overall, this program helps you manage a list of tasks by allowing you to add, view, remove, save, and load tasks.
